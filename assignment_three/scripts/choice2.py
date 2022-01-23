@@ -8,7 +8,7 @@ def manage_input(request):
     #function called by both choice 2 and 3 but if mode 3 is choosen here the launcher for that specific mode is called.
     
     if request.input_case == 1:
-       #call keyboard teleop w/o obstacle avoidance
+       #call keyboard teleop 
        os.system("roslaunch assignment_three choice2.launch") 
        
     elif request.input_case == 2:
