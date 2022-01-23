@@ -32,7 +32,7 @@ the first two launch files are launching a robotic simulation on Gazebo and Rviz
 
 Structure
 -----------------------------
-The logic of the code and how those three nodes communicate is written in the [flowchart](Final_flowchar.jpg).
+The logic of the code and how those three nodes communicate is written in the [flowchart](assignment_three/Final_flowchar.jpg).
 The software rely on the move_baseand gmapping packages for localizing the robot and plan the motion.
 
 In the input_controller.py code we find the functions to manage each user choice
